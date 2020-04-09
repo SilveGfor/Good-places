@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authorization"
+    android:orientation="vertical"
+    android:background="@drawable/moscow">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите электронную почту"
+        android:id="@+id/email"
+        android:textColor="@color/White_color"
+        android:textColorHint="@color/White_color"
+        />
+
+    <EditText
+        android:password="true"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите пароль"
+        android:id="@+id/password"
+        android:textColor="@color/White_color"
+        android:textColorHint="@color/White_color"/>
+
+    <Button
+        android:textColor="@color/White_color"
+        android:background="@color/Purple_color"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Войти"
+        android:id="@+id/enter"/>
+
+    <Button
+        android:textColor="@color/White_color"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/Purple_color"
+        android:text="Зарегистрироваться"
+        android:id="@+id/reg"/>
+
+</LinearLayout>

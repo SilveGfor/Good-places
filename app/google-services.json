@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1089957612386",
+    "firebase_url": "https://goodplaces-8db0d.firebaseio.com",
+    "project_id": "goodplaces-8db0d",
+    "storage_bucket": "goodplaces-8db0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089957612386:android:c3c4664a44b82bb7033a3b",
+        "android_client_info": {
+          "package_name": "com.example.utemp.goodplaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089957612386-vkce9903g1hiammrpipuo3r2nn47odv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.utemp.goodplaces",
+            "certificate_hash": "9e8f051bf1159db852c1041474f4217cc1a33eae"
+          }
+        },
+        {
+          "client_id": "1089957612386-0gfdubs1iodi3bceb3ld966laseo0ue5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.utemp.goodplaces",
+            "certificate_hash": "e10d518335ac75626e9455622a8f72c9e103b8d3"
+          }
+        },
+        {
+          "client_id": "1089957612386-kjbapnhcn56o0klna35addhbk21o8bt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7IYODJgs5-zkYmNCc7eGXkz34zn7g1Do"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089957612386-kjbapnhcn56o0klna35addhbk21o8bt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="5dp"
+    android:text="TextView"
+    android:textColor="#F4511E"
+    android:textSize="24sp"
+    android:shadowColor="#000000"
+    android:shadowRadius="2"
+    android:shadowDx="4"
+    android:shadowDy="4">
+</Button>

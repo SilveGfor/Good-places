@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical"
+    android:background="@drawable/moscow">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите электронную почту"
+        android:textColor="@color/White_color"
+        android:textColorHint="@color/White_color"
+        android:id="@+id/login"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите игровой ник"
+        android:textColor="@color/White_color"
+        android:textColorHint="@color/White_color"
+        android:id="@+id/nick"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите новый пароль"
+        android:textColor="@color/White_color"
+        android:textColorHint="@color/White_color"
+        android:id="@+id/password1"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Повторите новый пароль"
+        android:textColor="@color/White_color"
+        android:textColorHint="@color/White_color"
+        android:id="@+id/password2"/>
+
+
+    <Button
+
+
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/Purple_color"
+        android:textColor="@color/White_color"
+        android:text="Зарегистрироваться"
+        android:id="@+id/reg_reg"/>
+
+</LinearLayout>
